@@ -5,7 +5,7 @@ function People() {
     const people = [
         {
           name: 'matthew',
-         dog: 'noopy'
+         dog: 'snoopz'
         }, 
         {name: 'muhajir'}, 
         {name: 'miki'}, 
@@ -19,11 +19,10 @@ function People() {
     </div>
       );
 
-
-   
         return (
             <div>
-                {this.List}
+              <h1>People Page</h1>
+             {List}
             </div>
         )
     
